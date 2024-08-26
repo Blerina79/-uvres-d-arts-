@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les beaux arts</title>
+</head>
+<body>
+    <h1>Collections -Oeuvres d'Arts</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque fuga officiis, saepe praesentium, minima rem labore voluptatem facere necessitatibus dicta natus, dolores beatae. Rem quia quas quisquam corporis labore?</p>
+    
+    <!-- FORMULAIRE de rachat des oeuvres d'arts-->
+
+    <form method="post" action="estimation.php">
+      <input type="text" name="nom" id="nom" placeholder="nom de l'oeuvre d'arts" required> 
+      <select name="artiste" id="artiste">
+        <option value="artiste1">artiste 1</option>
+        <option value="artiste2">artiste 2</option>
+        <option value="artiste3">artiste 3</option>
+        <option value="marius">marius</option>
+        <option value="artiste4">artiste 4</option> 
+      </select>
+      <select name="type" id="type">
+        <option value="0">Dessin</option>
+        <option value="1">Sculpture</option>
+        <option value="2">document histoire</option>
+        <option value="3">Peinture</option>
+        <option value="4">Autre</option>
+      </select>
+      <select name="annee" id="annee">
+        <option value="0">Avant 1200</option>
+        <option value="1">Entre 1201 et 1600</option>
+        <option value="2">Entre 1601 et 1800</option>
+        <option value="3">Entre 1801 et 1999</option>
+        <option value="4">Aprés 2000</option>
+      </select>
+      <input type="submit" value="Lancer l'estimation">
+    </form>
+</body>
+</html>
